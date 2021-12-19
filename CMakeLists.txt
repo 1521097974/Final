@@ -1,1 +1,2 @@
-ADD_LIBRARY(Move Move.hpp global.hpp kbhit.hpp)
+
+ADD_EXECUTABLE( main  main.cpp Move.cpp global.cpp kbhit.cpp)
